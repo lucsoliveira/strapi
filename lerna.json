@@ -3,5 +3,10 @@
   "packages": ["packages/*", "examples/*"],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "useNx": true
+  "useNx": true,
+  "command": {
+    "publish": {
+      "registry": "http://localhost:8081/repository/npm-internal/"
+    }
+  }
 }
