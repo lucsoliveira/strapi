@@ -243,6 +243,11 @@ const Register = ({ hasAdmin }: RegisterProps) => {
               defaultMessage: 'Welcome to Strapi!',
             })}
           </Typography>
+
+          <Typography as="h1" variant="alpha" textAlign="center">
+            Seja bem vindo ao Strapi RN!
+          </Typography>
+
           <Typography variant="epsilon" textColor="neutral600" textAlign="center">
             {formatMessage({
               id: 'Auth.form.register.subtitle',
